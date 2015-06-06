@@ -393,4 +393,8 @@ Public Class Form1
         ListBox1.Items.Remove(ListBox1.SelectedItem)
         MessageBox.Show("Item Used / Dropped")
     End Sub
+
+    Public Sub getItems(ByVal newInt As Integer, ByVal otherInt As Integer)
+        MessageBox.Show("Hello")
+    End Sub
 End Class
